@@ -11,10 +11,10 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/Swiper-bundle.min.css">
+        <link rel="stylesheet" href="my_css/swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="my_css/style.css">
 
         <title>Responsive portfolio website-Debajyoti</title>
     </head>
@@ -29,7 +29,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link .active-link">
                                 <i class="ri-home-5-line"></i> Home
                             </a>
                         </li>
@@ -72,7 +72,7 @@
 
                 <div class="nav__buttons">
                     <!-- Theme change button -->
-                    <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
 
                     <!-- Toggle button -->
                      <div class="nav__toggle" id="nav-toggle">
@@ -89,20 +89,20 @@
                 <div class="home__container container grid section__border">
                     <div class="home__data grid">
                         <h1 class="home__title">
-                            Hi, I’m Debajyoti Samanta <br>
+                            Hi, I’m Debajyoti Samanta. <br>
                             Frontend Developer <br>
                         </h1>
 
                         <div class="home__blob grid">
                             <div class="home__image">
-                                <img src="assets/img/my_image.png" alt="home_image">
+                                <img src="assets/my_image.png" alt="home_image">
                             </div>
 
                             <!-- <img src="assets/img/shape-waves.svg" alt="" class="home__shape-waves"> -->
                             <!-- <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circles"> -->
                         </div>
 
-                        <ul class="home__sccial">
+                        <ul class="home__social">
                             <a href="https://www.linkedin.com/in/debajyoti-samanta-b49b292b5/" target="_blank" class="home__social-link">
                                 <i class="ri-linkedin-box-line"></i>
                             </a>
@@ -111,50 +111,56 @@
                                 <i class="ri-github-line"></i>
                             </a>
                         </ul>
-                        </div>
+                    </div>
                         <!--==================== HOME INFO 1 ====================-->
-                        <div class="home__info">
-                            <div>
-                                <h3 class="home__info-title">
-                                    BIOGRAPHY
-                                </h3>
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                BIOGRAPHY
+                            </h3>
 
-                                <p class="home__info-description">
-                                    Hi, I'm Debajyoti, Frontend Developer.
-                                    Passionate about designing beautiful web
-                                    interfaces.
-                                </p>
-                            </div>
+                            <p class="home__info-description">
+                                Hi, I'm Debajyoti Samanta, Frontend Developer. <br>
+                                Passionate about designing beautiful web
+                                interfaces. <br>
+                                Aspiring IT Professional | Passionate About Coding, Networking, Development | Constant Learner <br>
+                                <br>
+                                I am currently pursuing a course on the Information Technology at Meghnad Saha Institute of Technology in west bengal. <br>
+                                <br>
+                                Apart from my academic studies, I like doing self-inspired and learning related activities in order to improve my creativity. In all, I am passionate about technology and looking forward to working on interesting projects and teams. <br>
+                                <br>
+                                If you are searching for a motivated IT student who is ready to face the challenges of the IT sphere, please let’s keep in touch. <br>
+                            </p>
+                        </div>
 
-                            <div>
-                                <h3 class="home__info-title">
-                                    CONTACT
-                                </h3>
+                        <div>
+                            <h3 class="home__info-title">
+                                CONTACT
+                            </h3>
 
-                                <p class="home__info-description">
-                                    Kolkata, West Bengal <br>
-                                    debajyotisamanta2003@gmail.com <br>
-                                    +91 9564555918 <br>
-                                </p>
-                            </div>
+                            <p class="home__info-description">
+                                Kolkata, West Bengal <br>
+                                debajyotisamanta2003@gmail.com <br>
+                                +91 9564555918 <br>
+                            </p>
+                        </div>
 
-                            <div>
-                                <h3 class="home__info-title">
-                                    SERVICES
-                                </h3>
+                        <div>
+                            <h3 class="home__info-title">
+                                SERVICES
+                            </h3>
 
-                                <p class="home__info-description">
-                                    Website Design <br>
-                                    UI/UX Design <br>
-                                    Animation <br>
-                                </p>
-                            </div>
+                            <p class="home__info-description">
+                                Website Design <br>
+                                UI/UX Design <br>
+                                Animation <br>
+                            </p>
                         </div>
                     </div>
                     <!--==================== HOME INFO 2 ====================-->
-                    <div class="home__info2">
+                    <div class="home__info">
                         <div>
-                            <h3 class="home__info-title2">
+                            <h3 class="home__info-title">
                                 YEARS OF EXPERIENCE
                             </h3>
 
@@ -164,7 +170,7 @@
                         </div>
 
                         <div>
-                            <h3 class="home__info-title2">
+                            <h3 class="home__info-title">
                                 COMPLETED PROJECTS
                             </h3>
 
@@ -174,7 +180,7 @@
                         </div>
 
                         <div>
-                            <h3 class="home__info-title2">
+                            <h3 class="home__info-title">
                                 COMPANIES WORKED
                             </h3>
 
@@ -185,23 +191,21 @@
                     </div>
                 </div>
             </section>
-
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
                 <h2 class="section__title">Skills</h2>
                 <span class="section__subtitle">My favourite skills </span>
 
-                <div class="skills__container container grid section__border"></div>
                 <!--==================== SKILLS 1 ====================-->
                 <div class="skills__content">
-                    <h3 class="skills_title">
+                    <h3 class="skills__title">
                         <i class="ri-braces-line"></i>Frontend Developer 
                     </h3>
 
                     <div class="skills__info">
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/html-1.svg" alt="skills image">
+                                <img src="assets/html-1.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">HTML</h3>
                             <span class="skills__subtitle">Intermediate</span>
@@ -209,7 +213,7 @@
 
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/css-3.svg" alt="skills image">
+                                <img src="assets/css-3.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">CSS</h3>
                             <span class="skills__subtitle">Intermediate</span>
@@ -217,7 +221,7 @@
 
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/logo-javascript.svg" alt="skills image">
+                                <img src="assets/logo-javascript.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">JavaScript</h3>
                             <span class="skills__subtitle">Intermediate</span>
@@ -225,7 +229,7 @@
 
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/react-2.svg" alt="skills image">
+                                <img src="assets/react-2.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">React</h3>
                             <span class="skills__subtitle">Basic</span>
@@ -233,7 +237,7 @@
 
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/git-icon.svg" alt="skills image">
+                                <img src="assets/git-icon.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">Git</h3>
                             <span class="skills__subtitle">Intermediate</span>
@@ -243,14 +247,14 @@
 
             <!--==================== SKILLS 2====================-->
                 <div class="skills__content">
-                    <h3 class="skills_title">
+                    <h3 class="skills__title">
                         <i class="ri-pantone-line"></i> Web Designer
                     </h3>
 
                     <div class="skills__info">
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/figma-1.svg" alt="skills image">
+                                <img src="assets/figma-1.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">Figma</h3>
                             <span class="skills__subtitle">Intermediate</span>
@@ -258,7 +262,7 @@
 
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/c-1.svg" alt="skills image">
+                                <img src="assets/c-1.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">C</h3>
                             <span class="skills__subtitle">Intermediate</span>
@@ -266,7 +270,7 @@
 
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/c++.svg" alt="skills image">
+                                <img src="assets/c++.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">C++</h3>
                             <span class="skills__subtitle">Basic</span>
@@ -274,7 +278,7 @@
 
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/python-5.svg" alt="skills image">
+                                <img src="assets/python-5.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">Python</h3>
                             <span class="skills__subtitle">Intermediate</span>
@@ -282,7 +286,7 @@
 
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="assets/img/nodejs-1.svg" alt="skills image">
+                                <img src="assets/nodejs-1.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">NodeJs</h3>
                             <span class="skills__subtitle">Basic</span>
@@ -290,6 +294,7 @@
                     </div>
                 </div>
             </section>
+            <div class="skills__container container grid section__border"></div>
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section" id="qualification">
@@ -299,7 +304,7 @@
                 <div class="qualification__container container grid section__border">
                     <!--==================== QUALIFICATION 1====================-->
                     <div class="qualification__content">
-                        <h3 class="qualificatio__title">
+                        <h3 class="qualification__title">
                             <i class="ri-pencil-ruler-2-line"></i> Education
                         </h3>
 
@@ -324,7 +329,7 @@
                                 <h3 class="qualification__name">
                                     B-Tech(Information Technology)
                                 </h3>
-                                <span class="qualification__country">Meghnad Saha Institute of Technology(Pursuing).</span>
+                                <span class="qualification__country">Meghnad Saha Institute of Technology (Pursuing).</span>
                                 <span class="qualification__year">2023-2027</span>
                             </div>
                         </div>
@@ -332,7 +337,7 @@
 
                      <!--==================== QUALIFICATION 2====================-->
                      <div class="qualification__content">
-                        <h3 class="qualificatio__title">
+                        <h3 class="qualification__title">
                             <i class="ri-building-line"></i> Work
                         </h3>
 
@@ -341,12 +346,21 @@
                                 <h3 class="qualification__name">
                                     Frontend Developer 
                                 </h3>
-                                <span class="qualification__country">Hackerspace -> Coding Community of MSIT</span>
+                                <span class="qualification__country">Hackerspace -> Official Coding Community of MSIT</span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    Frontend Developer Intern
+                                </h3>
+                                <span class="qualification__country">CodeAlpha & CodeClause</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
+                <img src="assets/shape-circle.svg" alt="qualification image" class="qualification__img">
             </section>
 
             <!--==================== SERVICES ====================-->
@@ -414,7 +428,7 @@
                             <div class="swiper-wrapper">
                                 <!--==================== PROJECTS 1====================-->
                                 <div class="projects__content swiper-slide">
-                                    <img src="assets/img/project1.png" alt="projects image" class="projects__img">
+                                    <img src="assets/project1.png" alt="projects image" class="projects__img">
 
                                     <div>
                                         <span class="projects__subtitle">Web</span>
@@ -428,7 +442,7 @@
 
                                  <!--==================== PROJECTS 2====================-->
                                  <div class="projects__content swiper-slide">
-                                    <img src="assets/img/project2.png" alt="projects image" class="projects__img">
+                                    <img src="assets/project2.png" alt="projects image" class="projects__img">
 
                                     <div>
                                         <span class="projects__subtitle">Web</span>
@@ -442,7 +456,7 @@
 
                                  <!--==================== PROJECTS 3====================-->
                                  <div class="projects__content swiper-slide">
-                                    <img src="assets/img/project3.png" alt="projects image" class="projects__img">
+                                    <img src="assets/project3.png" alt="projects image" class="projects__img">
 
                                     <div>
                                         <span class="projects__subtitle">Web</span>
@@ -456,7 +470,7 @@
 
                                  <!--==================== PROJECTS 4====================-->
                                  <div class="projects__content swiper-slide">
-                                    <img src="assets/img/project4.png" alt="projects image" class="projects__img">
+                                    <img src="assets/project4.png" alt="projects image" class="projects__img">
 
                                     <div>
                                         <span class="projects__subtitle">Web</span>
@@ -467,8 +481,23 @@
                                         </a>
                                     </div>
                                 </div>
-                            </div>
 
+                                <!--==================== PROJECTS 5====================-->
+                                <div class="projects__content swiper-slide">
+                                    <img src="assets/project5.png" alt="projects image" class="projects__img">
+
+                                    <div>
+                                        <span class="projects__subtitle">Web</span>
+                                        <h1 class="projects__title">Event Management System</h1>
+
+                                        <a href="https://debajyotisamanta.github.io/CodeClauseInternship_Event_management_System/" class="projects__button">
+                                            View demo <i class="ri-arrow-right-line"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
                             <!-- Swiper arrows -->
                             <div class="swiper-button-next">
                                 <i class="ri-arrow-right-s-line"></i>
@@ -501,20 +530,21 @@
                                     <span class="testimonial__subtitle">Myself</span>
                                 </div>
                             </div>
-                                 <!--==================== TESTIMONIAL 2====================-->
-                                 <div class="testimonial__content swiper-slide">
-                                    <p class="testimonial__description">
-                                        Working with Chris is to give a good 
-                                        impression, I carry out my project at a good 
-                                        cost, with excellent quality and attention. 
-                                        Great service and recommended
-                                    </p>
+                            <!--==================== TESTIMONIAL 2====================-->
+                            <div class="testimonial__content swiper-slide">
+                               <p class="testimonial__description">
+                                   Working with Debajyoti is to give a good 
+                                   impression, I carry out my project at a good 
+                                   cost, with excellent quality and attention. 
+                                   Great service and recommended
+                               </p>
     
-                                    <div>
-                                        <h3 class="testimonial__name">XYZ</h3>
-                                        <span class="testimonial__subtitle">Friend</span>
-                                    </div>
+                               <div>
+                                   <h3 class="testimonial__name">XYZ</h3>
+                                   <span class="testimonial__subtitle">Friend</span>
                                 </div>
+                            </div>
+                                
                             <!-- Swiper arrows -->
                             <div class="swiper-button-next">
                                 <i class="ri-arrow-right-s-line"></i>
@@ -525,7 +555,7 @@
                         </div>
                     </div>
                </div>
-               <img src="assets/img/shape-waves.svg" alt="testimonial__image" class="testimonial__img">
+               <img src="assets/shape-wawes.svg" alt="testimonial image" class="testimonial__img">
             </section>
 
             <!--==================== CONTACT ====================-->
@@ -534,32 +564,32 @@
                 <span class="section__subtitle">Get in touch</span>
 
                 <div class="contact__container container grid section__border">
-                    <div class="contact_content">
+                    <div class="contact__content">
                         <h3 class="contact__title">
                             <i class="ri-chat-3-line"></i> Talk to me
                         </h3>
 
                         <div class="contact__info">
-                            <div class="contact data">
+                            <div class="contact__data">
                                 <span class="contact__data-title">Email:</span>
                                 <span class="contact__data-info">debajyotisamanta2003@gmail.com</span>
                             </div>
 
-                            <div class="contact data">
-                                <span class="contact__data-title">Whatsapp</span>
+                            <div class="contact__data">
+                                <span class="contact__data-title">Whatsapp: </span>
                                 <span class="contact__data-info">+91 9564555918</span>
-                                <a href="https://api.whatsapp.com/send?phone=519876543210&text=Hello, more information!" target="_blank" class="contact__button"></a>
-                                Write me <i class="ri-arrow-right-line"></i>
+                                <a href="https://api.whatsapp.com/send?phone=919564555918&text=Hello, more information!" target="_blank" class="contact__button"></a>
+                                Write me<i class="ri-arrow-right-line"></i>
                             </div>
                         </div>
                     </div>
 
-                    <div class="contact_content">
+                    <div class="contact__content">
                         <h3 class="contact__title">
                             <i class="ri-send-plane-line"></i> Write me your project
                         </h3>
 
-                        <form action="" class="container__form" id="contact-form">
+                        <form action="" class="contact__form" id="contact-form">
                             <div class="contact__form-div">
                                 <label class="contact__form-tag">Name</label>
                                 <input type="text" name="user_name" required placeholder="Enter your name" class="contact__form-input" id="contact-name">
@@ -567,12 +597,12 @@
 
                             <div class="contact__form-div">
                                 <label class="contact__form-tag">Mail</label>
-                                <input type="email" name="user_email" required placeholder="Enter your mail" class="contact__form-input" id="contact-email">
+                                <input type="email" name="user_email" required placeholder="Enter your email" class="contact__form-input" id="contact-email">
                             </div>
 
-                            <div class="contact__form-div contact form-area">
+                            <div class="contact__form-div contact__form-area">
                                 <label class="contact__form-tag">Projects</label>
-                                <textarea name="user project" placeholder="Write your project" id="contact-project" class="contact__form-input"></textarea>
+                                <textarea name="user project" placeholder="Write your project description" id="contact-project" class="contact__form-input"></textarea>
                             </div>
                             <p class="contact__message" id="contact-message"></p>
                             <button type="submit" class="contact__button">
@@ -616,25 +646,27 @@
                     </a>
                 </ul>
                 <span class="footer__copy">
-                    &#169; Copyright Debajyoti Samanta. All right reserved.
+                    &#169; 2025 Debajyoti Samanta. All right reserved.
                 </span>
             </div>
         </footer>
 
 
         <!--========== SCROLL UP ==========-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i> 
+        </a>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="my_js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="my_js/swiper-bundle.min.js"></script>
         
         <!--=============== EMAIL JS ===============-->
         
 
         <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
+        <script src="my_js/main.js"></script>
     </body>
 </html>
