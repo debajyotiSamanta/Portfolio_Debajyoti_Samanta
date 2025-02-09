@@ -331,6 +331,9 @@ body.dark-theme {
 .home__image img {
     width: 350px;
 }
+img{
+    filter: drop-shadow(10px 10px 15px #000);
+}
 .home__shape-waves,
 .home__shape-circle {
     position: absolute;
