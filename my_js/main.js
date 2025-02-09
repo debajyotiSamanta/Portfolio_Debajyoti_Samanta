@@ -163,15 +163,48 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader)
 
 // =======================SCROLL REVEAL ANIMATION================//
-const sr = scrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2500,
-    delay: 400,
-    reset: true
-})
-sr.reveal(`.home__data,.projects__container, .testimonial__container, .footer__container`)
-sr.reveal(`.home__info div`, {delay: 600,origin: 'bottom', interval: 100})
-sr.reveal(`.skills__content:nth-child(1), contact__content:nth-child(1)`, {origin: 'left'})
-sr.reveal(`.skills__content:nth-child(2), contact__content:nth-child(2)`, {origin: 'right'})
-sr.reveal(`.qualification__content, .services__card`, {interval: 100})
+document.addEventListener("DOMContentLoaded", function () {
+    const sr = ScrollReveal({
+        distance: '80px',  // Increased for better effect
+        duration: 2000,     // Smooth animation
+        delay: 400,
+        easing: 'ease-in-out', // Natural motion
+        reset: true
+    });
+
+    // Fade-in effects for main sections
+    sr.reveal(`.home__data, .projects__container, .testimonial__container, .footer__container`, {
+        origin: 'top',
+        opacity: 0
+    });
+
+    // Staggered animation for home info sections
+    sr.reveal(`.home__info div`, {
+        delay: 600,
+        origin: 'bottom',
+        interval: 150,
+        opacity: 0
+    });
+
+    // Sliding from left for first skill & contact section
+    sr.reveal(`.skills__content:nth-child(1), .contact__content:nth-child(1)`, {
+        origin: 'left',
+        opacity: 0,
+        duration: 2200
+    });
+
+    // Sliding from right for second skill & contact section
+    sr.reveal(`.skills__content:nth-child(2), .contact__content:nth-child(2)`, {
+        origin: 'right',
+        opacity: 0,
+        duration: 2200
+    });
+
+    // Staggered effect for qualifications & services
+    sr.reveal(`.qualification__content, .services__card`, {
+        interval: 150,
+        scale: 0.9,  // Subtle scaling effect
+        opacity: 0
+    });
+});
+
