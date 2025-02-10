@@ -22,7 +22,9 @@
         "ignore": [
           "-ms-touch-action",
           "scrollbar-width",
-          "scrollbar-width: none"
+          "scrollbar-width: none",
+          "text-wrap",
+          "text-wrap: nowrap"
         ]
       }
     ]
