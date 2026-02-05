@@ -1639,6 +1639,15 @@ body.dark-theme .services__border {
     .home__title{
         font-size: 2.25rem;
     }
+    /* .home__image{
+        width: 440px;
+        height: 520px;
+        border-radius: 10.6rem;
+    }
+    .home__image img{
+        height: 400px;
+        width: 350px;
+    } */
     .scrollup{
         right: 3rem;
     }
@@ -1663,6 +1672,26 @@ body.dark-theme .services__border {
     }
     .home__container {
         grid-template-columns: 1fr 2fr 1fr;
+    }
+    .home__blob {
+    position: relative;
+    width: 400px;
+    height: 580px;
+    background-color: var(--body-color);
+    border: 2px solid var(--text-color-light);
+    justify-self: center;
+    border-radius: 12rem;
+    place-items: center;
+    transition: background .4s; 
+    }
+    .home__image{
+        width: 340px;
+        height: 520px;
+        border-radius: 10.6rem;
+    }
+    .home__image img{
+        height: 400px;
+        width: 350px;
     }
     .home__data {
         padding: auto;
