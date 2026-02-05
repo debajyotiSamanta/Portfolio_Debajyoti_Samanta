@@ -776,7 +776,7 @@ h1.home__title {
 .home__blob {
     position: relative;
     width: 200px;
-    height: 290px;
+    height: 260px;
     background-color: var(--body-color);
     border: 2px solid var(--text-color-light);
     justify-self: center;
@@ -787,7 +787,7 @@ h1.home__title {
 
 .home__image {
     width: 170px;
-    height: 260px;
+    height: 230px;
     background: var(--gradient-color);
     border-radius: 5.5rem;
     overflow: hidden;
@@ -797,6 +797,7 @@ h1.home__title {
 }
 
 .home__image img {
+    height: 190px;
     width: 350px;
     filter: drop-shadow(10px 10px 15px #000);
 }
