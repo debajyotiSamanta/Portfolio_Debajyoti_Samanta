@@ -1699,6 +1699,7 @@ body.dark-theme .services__border {
         border-radius: 10.6rem;
     }
     .home__image img{
+        height: 400px;
         width: 350px;
     }
     .home__data{
